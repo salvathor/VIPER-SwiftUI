@@ -11,7 +11,8 @@ import SwiftUI
 struct VIPER_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            ProductRouter.makeListProductView()
         }
     }
 }
